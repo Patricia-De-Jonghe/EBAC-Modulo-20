@@ -14,3 +14,4 @@ var resultado = calcularMDC(5, 10);
 
 console.log(resultado)
 
+module.exports = { resultado }

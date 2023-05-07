@@ -7,7 +7,12 @@ function somar(limite){
        if(i % 3 === 0)
        multiplos3 += i;    
        if(i % 5 === 0)
-       multiplos3 += i;
+       multiplos5 += i;
     }
-console.log(multiplos3 + multiplos5);
+
+var resultado = (multiplos3 + multiplos5);
+
+console.log(resultado)
+
+module.exports = { resultado }
 }
